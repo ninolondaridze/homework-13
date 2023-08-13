@@ -9,9 +9,9 @@ while(Number.isInteger(n) === false) {
 }
 
 function pow (x,n) {
-   result = x ** n;
-   alert(`${x} to the power ${n} is ${result}`);
+   return x ** n;
 }
 
-pow (x, n);
+let result = pow (x, n);
+alert(result);
 
